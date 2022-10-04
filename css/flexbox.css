@@ -57,3 +57,48 @@
     display: flex;
     width: 23%;
 }
+
+/* RESPONSIVA */
+@media (max-width: 768px) { 
+
+.headerPrincipal .container {
+    flex-direction: column;
+    align-items: initial;
+    text-align: center;
+}
+
+.headerPrincipal-nav {
+    flex-direction:  column;
+}
+
+.contenidoPrincipal-cursos {
+    flex-direction: column;
+}
+
+.contenidoPrincipal-cursos-link {
+    width: 100%;
+}
+
+.rodapePrincipal-navMap-list {
+    height: auto;
+    flex-wrap: nowrap;
+}
+
+.rodapePrincipal-patrocinadores .container {
+    flex-direction: column;
+}
+
+.rodapePrincipal-contatoForm {
+    width: 100%;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    align-items: center;
+    width: 100%;
+    margin: 0px;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+    justify-content: center;
+}
+}
