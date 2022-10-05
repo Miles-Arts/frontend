@@ -12,22 +12,32 @@ div:nth-child(8) { background-color: silver; }
 /*fim do setup*/
 
 .flexContainer {
-	height: 300px;
 	display: flex;
+	/*height: 300px;
 	justify-content: space-around;
 	align-items: center;
-	flex-direction: column;
+	flex-direction: column;*/
 }
 
 .flexItem {
-	/*flex: 0 1 25%;*/
-	/*flex: 0 1 200px;
+	flex-grow: 1;
+	flex-shrink: 1;
+	/*flex: 0 1 200px;*/
 }
 
 .primero {
-	/*flex-grow: 3;*/
-	/*flex-shrink: 2;*/
+	/*flex: 0 1 30%;*/
+	flex-shrink: 0;
+
+	/*flex-grow: 0; RESUMEN DE ARRIBA
+	/*flex-shrink: 2;
+	flex-basis: 30%; */
 }
+
+/*.segundo {
+	flex-grow: 1;
+	flex-shrink: ;
+}*/
 
 /*100 / 5 = 20*/
 
